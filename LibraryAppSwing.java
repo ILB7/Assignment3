@@ -22,7 +22,7 @@ public class LibraryAppSwing extends JFrame {
         setLocationRelativeTo(null);
         books = new ArrayList<>();
 
-        loadBooksFromCSV("books.csv");
+        loadBooksFromCSV("books2.0.csv"); ////Change the name of this to check the other csv files
         initComponents();
     }
 
